@@ -1,2 +1,3 @@
-# mitreid-connect-themeegi
-EGI-branded theme for MitreID Connect
+## License
+
+Licensed under the Apache 2.0 license, for details see `LICENSE`.
