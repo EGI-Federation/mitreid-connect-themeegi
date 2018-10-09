@@ -1,0 +1,39 @@
+{
+    "home": {
+        "welcome": {
+            "title": "Welcome",
+            "body": "OpenID Connect (OIDC) is an identity protocol built on top of the OAuth2 authorization framework. Service Providers can connect to the EGI AAI using OIDC as an alternative to the SAML2 protocol."
+        }
+    },
+    "topbar": {
+        "login": "LOGIN",
+        "logout": "LOGOUT",
+        "org_title":"EGI",
+        "org_logo":"resources/images/logo.png",
+        "org_url":"https://www.egi.eu/",
+        "title":"EGI AAI OpenID Connect Provider (DEV)",
+        "ribbon":"Devel"
+    },
+    "openconext": {
+        "header": {
+            "favico":"resources/images/favico.ico"
+        },
+        "footer": {
+            "years":"2016-2018",
+            "org_title": "GRNET",
+            "org_link":"https://grnet.gr/",
+            "org_logo":"https://rciam.aai-dev.grnet.gr/ui1/module.php/themevanilla/resources/images/grnet_logo_en.svg",
+            "git_project":"RCIAM",
+            "git_link": "https://github.com/rciam",
+            "cookies_link_url": "policy",
+            "cookies_link_text": "updated privacy policy and cookie policy.",
+            "cookies_text": "We use cookies to identify you, thereby enabling us to grant you access to the services and resources provided by the Infrastructure, and also to improve your experience on our site. To find out more, read our", 
+            "cookies_accept_btn_text": "OK"
+        }
+    },
+    "service": {
+        "service-table": {
+            "text": "These are the services with active access/refresh tokens that can be used to access your SSO profile information. Access tokens are usually short-lived and provide services with access to specific resources. Refresh tokens are usually long-lived and provide services with the ability to get new access tokens without your involvement."
+        }
+    }
+}
