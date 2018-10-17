@@ -1,14 +1,14 @@
-# OpenConext-oidc-themevanilla
+# OpenConext-oidc-themeegi
 
-Vanilla RCIAM theme for [OpenConext](https://github.com/rciam/OpenConext-oidc), which is implementation of a OpenID Connect server based on the MITREid Connect server
+EGI Check-In theme for [OpenConext](https://github.com/rciam/OpenConext-oidc), which is implementation of a OpenID Connect server based on the MITREid Connect server
 
 ## Install
 
 To install the theme you must copy the changes were made in webapp directory
  
 ```
-git clone https://github.com/rciam/OpenConext-oidc-themevanilla.git
-cp -a <path to OpenConect-oidc-themevanilla>/oidc-server <path to OpenConect-oidc>/oidc-server
+git clone https://github.com/EGI-Foundation/mitreid-connect-themeegi.git
+cp -a <path to mitreid-connect-themeegi>/oidc-server <path to OpenConect-oidc>/oidc-server
 ```
 
 Edit server-config.xml which is located in:
