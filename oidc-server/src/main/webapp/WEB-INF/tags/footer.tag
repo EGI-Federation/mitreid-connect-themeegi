@@ -23,20 +23,26 @@
         </div>
     </div>
 </c:if>
-<div id="footer">
-        <div class="container">
-		<div class="row">
-			<div class="col-sm-3 ssp-footer__item"></div>
-			<div class="col-sm-6 ssp-footer__item">
+
+
+<div id="footer" class="text-center">
+    <div class="container">
+		<div class="row align-items-center">
+			<div class="col-md-4 ssp-footer__item"></div>
+			<div class="col-md-4 ssp-footer__item text-center col-images">
                         	<o:copyright />
 			</div>
-			<div class="col-sm-3 ssp-footer__item powered">
-				<div class="ssp-footer__item__powered">
-				 	Powered by <a href="<spring:message code="openconext.footer.git_link" text=""/>" target="_blank"><spring:message code="openconext.footer.git_project" text=""/></a>
-				</div>
+			<div class="col-md-4 ssp-footer__item ssp-footer__item--links text-right">
+			    <a href="<spring:message code="openconext.footer.terms_link" text=""/>" target="_blank"><spring:message code="openconext.footer.terms_text" text=""/></a>
+			    <a href="<spring:message code="openconext.footer.privacy_link" text=""/>" target="_blank"><spring:message code="openconext.footer.privacy_text" text=""/></a>
 			</div>
 		</div>
+        <div class="row">
+            <div class="col text-center">
+                <p><spring:message code="openconext.footer.message_text" text=""/></p>
+            </div>
         </div>
+    </div>
 </div>
 <!-- javascript
 ================================================== -->

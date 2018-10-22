@@ -97,7 +97,7 @@ h1, label {
     font-family: "Helvetica Neue";
     font-weight: 300;
     overflow: hidden;
-    padding: 0 20px 20px;
+    padding: 0 30px 15px;
     text-align: center;
     min-height: 80px;
 }
@@ -107,10 +107,13 @@ h1, label {
     text-decoration: none;
 }
 
+#footer a:hover {
+    text-decoration: underline;
+}
+
 #footer .ssp-footer__item  {
-    min-height: 60px;
+    min-height: 40px;
     font-size: 12px;
-    letter-spacing: 1px;
 }
 
 #footer .ssp-footer__item__logo {
@@ -546,3 +549,40 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
 /*.progress-striped {*/
 
 /*}*/
+
+#footer * {
+    font-size: 14px;
+}
+
+#footer .row {
+    padding: 8px;
+}
+
+
+.ssp-footer__item__logo {
+    height: 40px;
+}
+
+.ssp-footer__item--links a{
+    margin-right: 12px;
+    display: inline-block;
+    line-height: 50px;
+    vertical-align: baseline;
+}
+
+.ssp-footer__item__logo--eu {
+    height: 30px;
+    margin-left: 12px;
+}
+
+#footer .col-images a:hover {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px ) { 
+    .ssp-footer__item--links {
+        text-align: center;
+        margin: 0 6px;
+    }
+}
+
