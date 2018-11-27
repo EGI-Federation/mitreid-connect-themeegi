@@ -1,0 +1,42 @@
+{
+    "home": {
+        "welcome": {
+            "title": "Welcome",
+            "body": "OpenID Connect (OIDC) is an identity protocol built on top of the OAuth2 authorization framework. Service Providers can connect to the EGI AAI using OIDC as an alternative to the SAML2 protocol."
+        }
+    },
+    "topbar": {
+        "login": "LOGIN",
+        "logout": "LOGOUT",
+        "org_title":"EGI",
+        "org_logo":"resources/images/logo.png",
+        "org_url":"https://www.egi.eu/",
+        "title":"EGI AAI OpenID Connect Provider",
+        "ribbon":"Devel"
+    },
+    "openconext": {
+        "header": {
+            "favico":"resources/images/favico.ico"
+        },
+        "footer": {
+            "org_title": "GRNET",
+            "org_link":"https://grnet.gr/",
+            "org_logo":"resources/images/grnet_logo_en.svg",
+            "eu_logo": "resources/images/eu.svg",
+            "cookies_link_url": "policy",
+            "cookies_link_text": "updated privacy policy and cookie policy.",
+            "cookies_text": "We use cookies to identify you, thereby enabling us to grant you access to the services and resources provided by the Infrastructure, and also to improve your experience on our site. To find out more, read our", 
+            "cookies_accept_btn_text": "OK",
+            "terms_link": "https://aai.egi.eu/ToU.html",
+            "terms_text": "Terms",
+            "privacy_link": "https://aai.egi.eu/privacy.html",
+            "privacy_text": "Privacy",
+            "message_text": " Check-in is an EGI service provided by GRNET, receiving funding from the <a href='https://www.egi.eu/about/egi-foundation/' target='_blank'>EGI Foundation (EGI.eu)</a> and the <a href='https://eosc-hub.eu' target='_blank'>EOSC-hub project</a> (Horizon 2020) under Grant number 777536"
+        }
+    },
+    "service": {
+        "service-table": {
+            "text": "These are the services with active access/refresh tokens that can be used to access your SSO profile information. Access tokens are usually short-lived and provide services with access to specific resources. Refresh tokens are usually long-lived and provide services with the ability to get new access tokens without your involvement."
+        }
+    }
+}
