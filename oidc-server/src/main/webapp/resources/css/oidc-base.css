@@ -590,15 +590,20 @@ fieldset.well h5 {
     margin-top: 0;
 }
 
-#moreInformation a {
-    color: #cec9c9;
-    text-decoration: underline;
-}
-
-#moreInformation a:hover {
-    color: white;
+.more-info-alert {
+    padding: 8px 35px 8px 14px;
+    margin-bottom: 20px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    border: 1px solid #e3e3e3;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
 }
 
 .row-content-full {
     width: 100%;
+}
+
+strong {
+    font: 700 15px / 23px 'Lato'; 
 }
