@@ -379,7 +379,7 @@ body {
 
 body .well {
     box-shadow: none;
-    background: #fafafa;
+    background: white;
 }
 
 body a {
@@ -432,11 +432,10 @@ body .nav-list .divider {
 /* Buttons */
 
 .btn {
-    border: 0 none;
-    padding: 6px 10px;
-    border: 1px solid #c5dbec;
     background: white;
+    border: 1px solid #c5dbec;
     box-shadow: none;
+    padding: 6px 10px;
 }
 
 .btn:hover, .btn:focus, .btn:active {
@@ -606,4 +605,39 @@ fieldset.well h5 {
 
 strong {
     font: 700 15px / 23px 'Lato'; 
+}
+
+.aprv-btn-success {
+    background-color: #599adb;
+    border-color: transparent;
+}
+
+.aprv-btn-success:hover, .aprv-btn-success:active, .aprv-btn-success:focus {
+    background-color: #fff;
+    color: #2f81d2;
+    border-color: #599adb;
+}
+
+.aprv-btn-secondary {
+    background-color: #848484;
+    color: white;
+    border-color: transparent;
+}
+
+.aprv-btn-secondary:hover, .aprv-btn-secondary:active, .aprv-btn-secondary:focus {
+    background-color: #fff;
+    color: #555;
+    border-color: #848484;
+}
+
+.aprv-btn {
+    letter-spacing: 1px;
+    font-size: 11px;
+    text-transform: uppercase;
+    margin: 6px 12px;
+}
+
+.aprv-btn-large {
+    padding: 15px 18px;
+    line-height: 1.4;
 }
