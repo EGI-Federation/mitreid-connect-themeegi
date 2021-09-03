@@ -11,7 +11,7 @@
         "org_title":"EGI",
         "org_logo":"resources/images/logo.png",
         "org_url":"https://www.egi.eu/",
-        "title":"EGI AAI OpenID Connect Provider",
+        "title":"Check-in",
         "ribbon":"Devel"
     },
     "openconext": {

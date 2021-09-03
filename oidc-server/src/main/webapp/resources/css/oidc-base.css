@@ -308,7 +308,7 @@ h1, label {
 .dropdown-menu {
     border-radius: 0;
     padding: 0;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12)
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
     border: 0 none;
 }
 
@@ -379,7 +379,7 @@ body {
 
 body .well {
     box-shadow: none;
-    background: #fafafa;
+    background: white;
 }
 
 body a {
@@ -432,11 +432,10 @@ body .nav-list .divider {
 /* Buttons */
 
 .btn {
-    border: 0 none;
-    padding: 6px 10px;
-    border: 1px solid #c5dbec;
     background: white;
+    border: 1px solid #c5dbec;
     box-shadow: none;
+    padding: 6px 10px;
 }
 
 .btn:hover, .btn:focus, .btn:active {
@@ -586,3 +585,59 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
     }
 }
 
+fieldset.well h5 {
+    margin-top: 0;
+}
+
+.more-info-alert {
+    padding: 8px 35px 8px 14px;
+    margin-bottom: 20px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    border: 1px solid #e3e3e3;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.row-content-full {
+    width: 100%;
+}
+
+strong {
+    font: 700 15px / 23px 'Lato'; 
+}
+
+.aprv-btn-success {
+    background-color: #599adb;
+    border-color: transparent;
+}
+
+.aprv-btn-success:hover, .aprv-btn-success:active, .aprv-btn-success:focus {
+    background-color: #fff;
+    color: #2f81d2;
+    border-color: #599adb;
+}
+
+.aprv-btn-secondary {
+    background-color: #848484;
+    color: white;
+    border-color: transparent;
+}
+
+.aprv-btn-secondary:hover, .aprv-btn-secondary:active, .aprv-btn-secondary:focus {
+    background-color: #fff;
+    color: #555;
+    border-color: #848484;
+}
+
+.aprv-btn {
+    letter-spacing: 1px;
+    font-size: 11px;
+    text-transform: uppercase;
+    margin: 6px 12px;
+}
+
+.aprv-btn-large {
+    padding: 15px 18px;
+    line-height: 1.4;
+}
